@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: "poppins";
+    font-weight: 700;
+    src: url("./assets/Fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+    font-family: "poppins";
+    font-weight: 500;
+    src: url("./assets/Fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "poppins";
+    font-weight: 900;
+    src: url("./assets/Fonts/Poppins-Bold.ttf");
+}
+body{
+    font-family: poppins, sans-serif;
+}
