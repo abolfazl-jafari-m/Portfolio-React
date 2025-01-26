@@ -1,12 +1,17 @@
 .container {
     width: 100%;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(5,1,36,1) 35%, rgba(14,14,14,1) 100%);
+    /*background: rgb(0,0,0);*/
+    /*background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(5,1,36,1) 35%, rgba(14,14,14,1) 100%);*/
+    background-image: url("../../assets/Images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 10px 30px;
+    grid-template-columns: 2fr 1fr;
+    padding: 40px 50px;
     gap : 20px;
-
+    height: 100vh;
+    position: relative;
 }
 
 .headline {
@@ -16,14 +21,29 @@
 
 .headerPic {
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 2/4;
+    place-self: center;
+
 }
 .cta{
     grid-column: 1/2;
-    grid-row: 2/4;
+    grid-row: 2/3;
+    place-self: center;
+    width: 80%;
+    padding: 20px;
 }
 
-.benefits {
-    grid-column: 2/3;
+.socials {
+    grid-column: 1/2;
     grid-row: 3/4;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    img {
+        width: 64px;
+        height: auto;
+    }
 }

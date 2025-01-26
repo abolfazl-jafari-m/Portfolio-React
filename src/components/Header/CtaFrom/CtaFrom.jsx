@@ -12,7 +12,7 @@ function CtaFrom() {
                     <label htmlFor={"email"}>Your Email :</label>
                     <input type={"email"} id={"email"} placeholder={"youremail@mail.con"}/>
                 </div>
-                <button>درخواست همکاری یا ما</button>
+                <button>درخواست همکاری با ما</button>
             </form>
         </>
     );

@@ -2,7 +2,9 @@ import styles from "./Header.module.css";
 import CtaFrom from "./CtaFrom/CtaFrom.jsx";
 import HeadLine from "./HeadLine/HeadLine.jsx";
 import VisualCard from "./VisualCard/VisualCard.jsx";
-import Benefits from "./Benefits/Benefits.jsx";
+import Socials from "./Socials/Socials.jsx";
+import Logo from "/logo.png"
+
 
 function Header() {
     return (
@@ -17,9 +19,13 @@ function Header() {
                 <div className={styles.headerPic}>
                     <VisualCard />
                 </div>
-                <div className={styles.benefits}>
-                    <Benefits />
+                <div className={styles.socials}>
+                    <Socials />
                 </div>
+                <div className={styles.logo}>
+                    <img src={Logo} alt={"logo"}/>
+                </div>
+
             </div>
         </>
     );

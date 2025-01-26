@@ -2,19 +2,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    /*padding: 20px;*/
     margin: 10px;
 }
 .title{
-    font-size: 23px;
+    font-size: 32px;
     color: white;
     font-weight: 600;
     span {
         color: #1341b7;
-        font-size: 32px;
+        font-size: 48px;
     }
 }
 .subtitle {
     color: white;
     opacity: .7;
+    font-size: 56px;
 }
