@@ -1,0 +1,42 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #57534E ;
+    gap: 15px;
+    width: 80%;
+    justify-self: center;
+    align-self: center;
+    button {
+        background-color: #1E1B4B;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 13px;
+        font-family: yekan ,sans-serif;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.formSection {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 10px;
+    label {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    input{
+        flex: 1;
+        padding: 4px;
+        outline: none;
+        border: none;
+        font-size: 14px;
+    }
+}

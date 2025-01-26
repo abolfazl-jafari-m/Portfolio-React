@@ -19,6 +19,16 @@
     font-weight: 900;
     src: url("./assets/Fonts/Poppins-Bold.ttf");
 }
+@font-face {
+    font-family: "vazir";
+    font-weight: 500;
+    src: url("./assets/Fonts/Vazir-Medium-FD.ttf");
+}
+@font-face {
+    font-family: "yekan";
+    font-weight: 500;
+    src: url("./assets/Fonts/Yekan.ttf");
+}
 body{
     font-family: poppins, sans-serif;
 }
