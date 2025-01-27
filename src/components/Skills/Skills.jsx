@@ -69,7 +69,7 @@ function Skills() {
                 spaceBetween={10}
                 slidesPerView={9}
                 modules={[Autoplay]}
-                autoplay={{delay : 500}}
+                autoplay={{delay : 700}}
                 loop={true}
             >
                 {skillsItems}

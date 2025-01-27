@@ -13,17 +13,17 @@ function UserReviews() {
         {
             name: "John Doe",
             profile: "/profiles/avatar1.svg",
-            review: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum magni natus sunt!"
+            review: "بابا دس خوش کار درست ترین"
         },
         {
             name: "John Jafari",
             profile: "/profiles/avatar2.svg",
-            review: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum magni natus sunt!"
+            review: "د بست . زبان قاصره از توصیف"
         },
         {
             name: "Sara",
             profile: "/profiles/avatar3.svg",
-            review: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum magni natus sunt!"
+            review: "The Only Coding G.O.A.T🐐"
         },
     ];
     const reviewItems = reviews.map((item, index) => {
