@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    position: relative;
+    background-color: #a0a0a0;
+    max-width: 600px;
+
+    img {
+        position: absolute;
+        bottom: -8px;
+        right: -8px;
+        border-radius: 50%;
+        border: 2px solid black;
+        height: 64px;
+        width: 64px;
+        z-index: 3;
+        padding: 2px;
+        overflow: hidden;
+        background-color: white;
+    }
+}

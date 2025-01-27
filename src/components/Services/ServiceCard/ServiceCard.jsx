@@ -12,7 +12,7 @@ function ServiceCard({title , picture , description}) {
     );
 }
 
-ServiceCard.propsType = {
+ServiceCard.propTypes = {
     title : PropsType.string,
     picture : PropsType.string,
     description : PropsType.string

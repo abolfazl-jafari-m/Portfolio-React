@@ -2,6 +2,7 @@ import styles from "./Skills.module.css";
 import SkillCard from "./SkillCard/SkillCard.jsx";
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {Autoplay} from 'swiper/modules';
+import "swiper/css/autoplay";
 import 'swiper/css';
 
 function Skills() {
@@ -68,7 +69,8 @@ function Skills() {
                 spaceBetween={10}
                 slidesPerView={9}
                 modules={[Autoplay]}
-                autoplay
+                autoplay={{delay : 500}}
+                loop={true}
             >
                 {skillsItems}
             </Swiper>
