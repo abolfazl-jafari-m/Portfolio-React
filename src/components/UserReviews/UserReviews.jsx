@@ -7,8 +7,15 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import "./styles.css";
 import ReviewCard from "./ReviewCard/ReviewCard.jsx";
+import  { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function UserReviews() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
     const reviews = [
         {
             name: "John Doe",
@@ -39,7 +46,9 @@ function UserReviews() {
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.title}>
+                <div className={styles.title} data-aos="fade-down"
+                     data-aos-anchor-placement="top-center" data-aos-easing="ease-in-sine"
+                     data-aos-duration="700">
                     <div>
                         <h2>نظرات همکارهای قبلی ما</h2>
                         <p>
@@ -48,8 +57,10 @@ function UserReviews() {
                             quaerat.
                         </p>
                     </div>
-                </div>
-                <div className={styles.slides}>
+                </div >
+                <div className={styles.slides}  data-aos="fade-up"
+                     data-aos-anchor-placement="top-center" data-aos-easing="ease-in-sine"
+                     data-aos-duration="700">
                     <Swiper className={styles.slidesWrapper}
                             modules={[Navigation, Pagination, EffectFade]}
                             spaceBetween={50}

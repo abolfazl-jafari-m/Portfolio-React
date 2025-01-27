@@ -1,7 +1,8 @@
+
 import styles from "./Services.module.css";
 import ServiceCard from "./ServiceCard/ServiceCard.jsx";
-
 function Services() {
+
     const services = [
         {
             title: "UI/UX",
