@@ -4,12 +4,14 @@ import HeadLine from "./HeadLine/HeadLine.jsx";
 import VisualCard from "./VisualCard/VisualCard.jsx";
 import Socials from "./Socials/Socials.jsx";
 import Logo from "/logo.png"
+import Greeting from "./Greeting/Greeting.jsx";
 
 
 function Header() {
     return (
         <>
             <div className={styles.container}>
+                <Greeting isLoggedIn={true} name={"Abolfazl"}/>
                 <div className={styles.headline}>
                         <HeadLine />
                 </div>
